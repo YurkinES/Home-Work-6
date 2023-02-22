@@ -42,7 +42,7 @@ public class Main {
         totalMoney1 = totalMoney1 + totalMoney1 / 100;
         totalMoney1 = totalMoney1 + monthContribution1;
         System.out.println("Месяц " + i + " сумма накоплений равна " + totalMoney1 + " рублей");
-        }
+    }
     //Task #10
     int number = 2;
     for (int i = 1; i <= 10; i++) {
