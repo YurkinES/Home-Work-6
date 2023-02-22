@@ -32,8 +32,22 @@ public class Main {
     int totalMoney = 0;
     int monthContribution = 29000;
     for (int i = 1; i <= 12; i++) {
-       totalMoney = totalMoney + monthContribution;
+        totalMoney = totalMoney + monthContribution;
         System.out.println("Месяц " + i + " сумма накоплений равна " + totalMoney + " рублей");
+    }
+    //Task #9
+    int totalMoney1 = 0;
+    int monthContribution1 = 29000;
+    for (int i = 1; i <= 12; i++) {
+        totalMoney1 = totalMoney1 + totalMoney1 / 100;
+        totalMoney1 = totalMoney1 + monthContribution1;
+        System.out.println("Месяц " + i + " сумма накоплений равна " + totalMoney1 + " рублей");
+        }
+    //Task #10
+    int number = 2;
+    for (int i = 1; i <= 10; i++) {
+        int answer = number * i;
+        System.out.println(number + "*" + i + "=" + answer);
     }
     }
 }
