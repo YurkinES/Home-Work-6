@@ -28,5 +28,12 @@ public class Main {
     for (int n = 1; n < 1000; n = n * 2){
         System.out.println(n);
     }
+    //Task #8
+    int totalMoney = 0;
+    int monthContribution = 29000;
+    for (int i = 1; i <= 12; i++) {
+       totalMoney = totalMoney + monthContribution;
+        System.out.println("Месяц " + i + " сумма накоплений равна " + totalMoney + " рублей");
+    }
     }
 }
